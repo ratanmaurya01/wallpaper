@@ -1,0 +1,105 @@
+
+ .StartPage {
+  margin-top: 5%;
+} 
+
+
+@media (max-width: 768px) {
+  .StartPage {
+    margin-top: 10%; /* Adjust this value for smaller screens */
+  }
+
+  .LoginPage{
+    margin-top: 14%; /* Adjust this value for smaller screens */
+  }
+}
+
+
+@media (max-width: 768px) {
+  .ContactPage {
+    margin-top: 15%; /* Adjust this value for smaller screens */
+  }
+
+  .PageDown{
+    margin-top: 4%;
+  }
+  .Information{
+
+    margin-top: -20%;
+  }
+}
+
+
+
+@media (max-width: 576px) {
+  .StartPage {
+    margin-top: 20%; /* Adjust this value for even smaller screens */
+  }
+}
+
+.StartPageSignUp{
+  margin-top: 4%;
+}
+
+.StartPageLog{
+  margin-top: 5;
+}
+
+@media (max-width: 576px) {
+  .StartPageSignUp {
+    margin-top: 0; /* Adjust this value for even smaller screens */
+  }
+
+  .StartPageLog{
+    margin-top: 10%;
+  }
+}
+
+.image-list-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.image-list {
+  border-radius: 8px;
+  width: 50%;
+  max-width: 80%; /* Maximum width for larger screens */
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* Adjust the gap between images as needed */
+}
+
+.Image{
+  border-radius: 5px;
+}
+
+
+.image-card {
+  border-radius: 8px;
+  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1);
+  
+}
+
+
+
+
+/* Media query for screens smaller than 768px (mobile devices) */
+@media (max-width: 767px) {
+  .image-list {
+    margin: 5px;
+    width: 100%; /* Full width for mobile devices */
+    max-width: none; /* Remove max-width */
+  }
+}
+
+
+@media (max-width: 768px) {
+  /* Apply styles for screens up to 768px width (e.g., mobile devices) */
+  div[style*="display: flex"] {
+    flex-direction: column;
+  }
+  div[style*="margin-button: 12px"] {
+    margin-buttom: 50px;
+  }
+}
